@@ -24,3 +24,8 @@ def test_is_valid_phone_number_True2():
     expection=True
     actual=Mpu.is_valid_phone_number("000-111-0000")
     assert expection==actual 
+
+def test_is_valid_phone_number_False4():
+    expection=False
+    actual=Mpu.is_valid_phone_number("1237444-1230")
+    assert expection==actual 
