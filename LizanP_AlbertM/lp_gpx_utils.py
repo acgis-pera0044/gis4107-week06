@@ -1,4 +1,12 @@
 def get_coords_from_gpx(gpx):
+    """This function take a string with the format of a GPX file and returns both longitude and latitude values
+
+    Args:
+        gpx (string): string with the format of a GPX file <trkpt lat="45.38895" lon="-75.7472631">
+
+    Returns:
+        floats: returns two floats representing decimal degree longitude and latitude
+    """
     gpx_list = gpx.split()
     if "trkpt" in gpx_list[0]:
         lat_value = float(gpx_list[1].split('"')[1])
