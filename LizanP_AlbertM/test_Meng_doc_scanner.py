@@ -11,3 +11,8 @@ def test_get_x_code_position():
     actual=Mds.get_x_code_position("A1Tx6op301")
     assert expection==actual
 
+def test_get_x_code_no_position():
+    expection=-1
+    actual=Mds.get_x_code_position("A1x6op301")
+    assert expection==actual
+
