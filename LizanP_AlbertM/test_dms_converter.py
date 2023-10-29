@@ -1,4 +1,4 @@
-import lp_dms_converter as dc
+import dms_converter as dc
 
 def test_dms2dd_1():
     coordinates = "075 45 03 e 45 23 05 s"
