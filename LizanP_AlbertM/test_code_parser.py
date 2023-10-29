@@ -1,4 +1,4 @@
-import lp_code_parser as cp
+import code_parser as cp
 
 def test_get_db_link():
     code = "20-WBO-109642-809"
