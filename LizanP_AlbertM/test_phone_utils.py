@@ -1,4 +1,4 @@
-import lp_phone_utils as pu
+import phone_utils as pu
 
 def test_is_valid_phone_number_1():
     phone_number = "123-456-7890"
