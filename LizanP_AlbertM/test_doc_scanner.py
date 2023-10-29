@@ -1,4 +1,4 @@
-import lp_doc_scanner as ds
+import doc_scanner as ds
 
 def test_has_x_code_1():
     in_text = "hzsfsdgsTx6op3gghfjr"
