@@ -1,4 +1,4 @@
-import lp_gpx_utils as gu
+import gpx_utils as gu
 
 def test_get_coords_from_gpx_1():
     gpx = '<trkpt lat="45.3888995" lon="-75.7472631">'
